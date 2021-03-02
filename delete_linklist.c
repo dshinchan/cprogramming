@@ -12,7 +12,7 @@ int  main()
 	for(x=0;x<3;x++)
 	{
 		head =0 ; int flag =1;
-		printf("\n linked list = %d \n ",x);
+		printf("\n linked lists = %d \n ",x);
 		while(flag!=0)
 		{
 			newnode_x=(struct linklist*)malloc(sizeof(struct linklist));
