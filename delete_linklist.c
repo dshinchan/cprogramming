@@ -16,7 +16,7 @@ int  main()
 		while(flag!=0)
 		{
 			newnode_x=(struct linklist*)malloc(sizeof(struct linklist));
-			printf("\n enter the data \n");
+			print("\n enter the data \n");
 			scanf("%d",&newnode_x->data);
 			if(head==0)
 				head=temp=newnode_x;
